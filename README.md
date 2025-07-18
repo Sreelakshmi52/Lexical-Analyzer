@@ -17,7 +17,7 @@ A command-line tool in C to **scan and classify tokens** from C source code file
 - [Project Structure](#project-structure)
 - [Error Handling](#error-handling)
 - [Output](#output)
-- [About](#about)
+
 
 ---
 
@@ -111,6 +111,3 @@ gcc $(ls *.c | grep -v test_input.c)
 
 ---
 
-## About
-
-Lexical Analyzer is a C-based command-line tool to break C source code into tokens and categorize them. It demonstrates how compilers start parsing source code — making it ideal for learning tokenization, syntax patterns, and compiler front-end design.
